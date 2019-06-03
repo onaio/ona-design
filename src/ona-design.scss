@@ -1,11 +1,24 @@
 // Variable Overrides
+$ona-orange: #FF5D00;
+$ona-green: #407784;
+$ona-darkblue: #2F3B49;
+$ona-beige: #F7F6EF;
+
+$primary: $ona-orange;
+$secondary: $ona-green;
+$dark: $ona-darkblue;
+$light: $ona-beige;
+
+$border-radius: 2px;
+$border-radius-sm: 2px;
+$border-radius-lg: 2px;
 
 // Bootstrap and its default variables
-@import '../node_modules/bootstrap/scss/functions';
-@import '../node_modules/bootstrap/scss/variables';
-@import '../node_modules/bootstrap/scss/mixins';
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins';
 
-h1, h2 { color: green; }
 
 // Custom Styling
-@import 'buttons';
+// @import 'buttons';
+// @import 'forms';
