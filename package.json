@@ -1,0 +1,21 @@
+{
+  "name": "ona-design",
+  "version": "0.0.0",
+  "description": "A Bootstrap theme for Ona products.",
+  "sass": "src/ona-design.scss",
+  "style": "dist/ona-design.css",
+  "author": "Ona Engineers",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "build": "gulp sass",
+    "develop": "gulp sass && gulp watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  }
+}
