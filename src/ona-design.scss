@@ -14,9 +14,10 @@ $border-radius-sm: 2px;
 $border-radius-lg: 2px;
 
 // Bootstrap and its default variables
-@import 'node_modules/bootstrap/scss/functions';
-@import 'node_modules/bootstrap/scss/variables';
-@import 'node_modules/bootstrap/scss/mixins';
+@import 'node_modules/bootstrap/scss/bootstrap.scss'
+// @import 'node_modules/bootstrap/scss/functions.scss';
+// @import 'node_modules/bootstrap/scss/variables.scss';
+// @import 'node_modules/bootstrap/scss/mixins.scss';
 
 
 // Custom Styling
