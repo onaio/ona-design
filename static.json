@@ -1,3 +1,7 @@
 {
-  "root": "/"
+  "root": "/",
+  "routes": {
+    "/dist/*": "/dist/",
+    "/src/*": "/src/"
+  }
 }
