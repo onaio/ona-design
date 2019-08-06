@@ -1,4 +1,53 @@
-@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
-$font-family-sans-serif: 'Proxima Nova';
-$font-family-base: $font-family-sans-serif;
-$font-size-base: 0.875rem;
+@import                   './colors.scss';
+$body-color:              $ona-black;
+
+// Import Proxima Nova Regular/Italic
+@font-face {
+  font-family:            'Proxima Nova';
+  font-style:             normal;
+  font-weight:            400;
+  src:                    local('Proxima Nova Regular'), 
+                          local('ProximaNova-Regular'), 
+                          url('https://cdn.jsdelivr.net/npm/font-proxima-nova@1/fonts/ProximaNova-Regular.woff');
+}
+@font-face {
+  font-family:            'Proxima Nova';
+  font-style:             italic;
+  font-weight:            400;
+  src:                    local('Proxima Nova Regular Italic'),
+                          local('ProximaNova-Regular-Italic'),
+                          url('https://cdn.jsdelivr.net/npm/font-proxima-nova@1/fonts/ProximaNova-RegularIt.woff');
+}
+// Import Proxima Nova Semibold/Italic
+@font-face {
+  font-family:            'Proxima Nova';
+  font-style:             normal;
+  font-weight:            600;
+  src:                    local('Proxima Nova Semibold'),
+                          local('ProximaNova-Semibold'),
+                          url('https://cdn.jsdelivr.net/npm/font-proxima-nova@1/fonts/ProximaNova-Semibold.woff');
+}
+@font-face {
+  font-family:            'Proxima Nova';
+  font-style:             italic;
+  font-weight:            600;
+  src:                    local('Proxima Nova Semibold Italic'),
+                          local('ProximaNova-Semibold-Italic'),
+                          url('https://cdn.jsdelivr.net/npm/font-proxima-nova@1/fonts/ProximaNova-SemiboldIt.woff');
+}
+
+$font-family-sans-serif:  'Proxima Nova';
+$font-family-base:        $font-family-sans-serif;
+
+$font-size-base:          0.875rem;
+$line-height-base:        1.4286;
+
+$font-weight-bold:        600;
+$headings-font-weight:    $font-weight-bold;
+
+$h1-font-size:            3rem;
+$h2-font-size:            2rem;
+$h3-font-size:            1.5rem;
+$h4-font-size:            1.25rem;
+$h5-font-size:            1rem;
+$h6-font-size:            0.75rem;
