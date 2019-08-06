@@ -1,25 +1,18 @@
-// Variable Overrides
-$ona-orange: #FF5D00;
-$ona-green: #407784;
-$ona-darkblue: #2F3B49;
-$ona-beige: #F7F6EF;
+// Variable Imports
+@import './colors.scss';
+@import './fonts.scss';
+@import './buttons.scss';
 
-$primary: $ona-orange;
-$secondary: $ona-green;
-$dark: $ona-darkblue;
-$light: $ona-beige;
-
-$border-radius: 2px;
-$border-radius-sm: 2px;
-$border-radius-lg: 2px;
+// Global Variables
+$border-radius: 4px;
+$border-radius-sm: 4px;
+$border-radius-lg: 4px;
 
 // Bootstrap and its default variables
-@import 'node_modules/bootstrap/scss/bootstrap.scss'
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
 // @import 'node_modules/bootstrap/scss/functions.scss';
 // @import 'node_modules/bootstrap/scss/variables.scss';
 // @import 'node_modules/bootstrap/scss/mixins.scss';
 
-
-// Custom Styling
-// @import 'buttons';
-// @import 'forms';
+// Style Imports
+@import './buttons.scss';
