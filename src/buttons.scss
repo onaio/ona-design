@@ -1,0 +1,14 @@
+$input-btn-padding-y: 0.4rem;
+$input-btn-padding-x: 1.25rem;
+
+$input-btn-padding-y-sm: 0.25rem;
+$input-btn-padding-x-sm: 1.125rem;
+$input-btn-font-size-sm: theme("font-size-base");
+
+$input-btn-padding-y-lg: 0.75rem;
+$input-btn-padding-x-lg: 1.75rem;
+$input-btn-font-size-lg: theme("font-size-base");
+
+.btn-rounded {
+  border-radius: 1.5rem;
+}

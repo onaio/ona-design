@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Proxima Nova Regular"), local("ProximaNova-Regular"), url("https://cdn.jsdelivr.net/npm/font-proxima-nova@1/fonts/ProximaNova-Regular.woff"); }
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Proxima Nova Regular Italic"), local("ProximaNova-Regular-Italic"), url("https://cdn.jsdelivr.net/npm/font-proxima-nova@1/fonts/ProximaNova-RegularIt.woff"); }
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Proxima Nova Semibold"), local("ProximaNova-Semibold"), url("https://cdn.jsdelivr.net/npm/font-proxima-nova@1/fonts/ProximaNova-Semibold.woff"); }
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Proxima Nova Semibold Italic"), local("ProximaNova-Semibold-Italic"), url("https://cdn.jsdelivr.net/npm/font-proxima-nova@1/fonts/ProximaNova-SemiboldIt.woff"); }
